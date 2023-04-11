@@ -251,9 +251,9 @@ Luego comparo cada letra en ambas listas y en caso de que todas las letras sean 
 ```
 Algoritmo Palindromo
 	for i in palabra
-                arbalap[i] = palabra[len(palabra) -i]
-            for i in arbalap
-                if palabra[i] =! arbalap[i]
+                rpalabra[i] = palabra[len(palabra) -i]
+            for i in rpalabra
+                if palabra[i] =! rpalabra[i]
                     return 0
             return 1
 ```
